@@ -16,22 +16,22 @@
   z-index: 2;
   background: radial-gradient(
     ellipse at center,
-    rgba(30, 30, 60, 0.4) 0%,
-    rgba(10, 10, 20, 0.85) 60%,
-    rgba(0, 0, 0, 0.95) 100%
+    rgba(20, 20, 40, 0.3) 0%,
+    rgba(8, 8, 16, 0.9) 60%,
+    rgba(0, 0, 0, 0.98) 100%
   );
-  animation: pulseGradient 6s ease-in-out infinite;
+  animation: pulseGradient 4s ease-in-out infinite;
   pointer-events: none;
 }
 
 @keyframes pulseGradient {
   0%, 100% {
-    opacity: 0.9;
+    opacity: 0.85;
     transform: scale(1);
   }
   50% {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 }
 
